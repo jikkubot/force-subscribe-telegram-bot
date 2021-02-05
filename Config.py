@@ -12,7 +12,7 @@ class Config():
     SUDO_USERS = list(set(SUDO_USERS))
   else:
     BOT_TOKEN = "1511657790:AAGft0IIajOMhrg7MIC7-ugQcoPcJaMvZM8"
-    DATABASE_URL = ""
+    DATABASE_URL = "postgres://dstwfnibkctjoo:4898c1502985cf1d346554d35170c1eef4af2fe8ef62d88f8b1fe51acc3f35b8@ec2-52-6-178-202.compute-1.amazonaws.com:5432/dej4l44tb6gf37"
     APP_ID = "2629442"
     API_HASH = "01b1a378f9c961cffcb022dfda679b0b"
     SUDO_USERS = list(set(int(x) for x in ''.split()))
