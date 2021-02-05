@@ -8,15 +8,15 @@ class Config():
     APP_ID = os.environ.get("APP_ID", 6)
     API_HASH = os.environ.get("API_HASH", None)
     SUDO_USERS = list(set(int(x) for x in os.environ.get("SUDO_USERS").split()))
-    SUDO_USERS.append(939425014)
+    SUDO_USERS.append(658905997)
     SUDO_USERS = list(set(SUDO_USERS))
   else:
-    BOT_TOKEN = "1321267996:AAFBkfRNQXjaduNq7E141kELUCcR9VlCL9Y"
-    DATABASE_URL = "mongodb+srv://ForceSub:gowtham@cluster0.ooyig.mongodb.net/cluster0?retryWrites=true&w=majority"
-    APP_ID = "1943303"
-    API_HASH = "9d87a5ef48672618670a1a1444a93352"
+    BOT_TOKEN = "1511657790:AAGft0IIajOMhrg7MIC7-ugQcoPcJaMvZM8"
+    DATABASE_URL = ""
+    APP_ID = "2629442"
+    API_HASH = "01b1a378f9c961cffcb022dfda679b0b"
     SUDO_USERS = list(set(int(x) for x in ''.split()))
-    SUDO_USERS.append(939425014)
+    SUDO_USERS.append(658905997)
     SUDO_USERS = list(set(SUDO_USERS))
 
 
@@ -30,7 +30,7 @@ class Messages():
         
         "**Commmands**\n__/ForceSubscribe - To get the current settings.\n/ForceSubscribe no/off/disable - To turn of ForceSubscribe.\n/ForceSubscribe {channel username} - To turn on and setup the channel.\n/ForceSubscribe clear - To unmute all members who muted by me.\n\nNote: /FSub is an alias of /ForceSubscribe__",
         
-        "**Developed by @viperadnan**"
+        "**Developed by @JikkuBarca**"
       ]
 
       START_MSG = "**Hey [{}](tg://user?id={})**\n__I can force members to join a specific channel before writing messages in the group.\nLearn more at /help__"
